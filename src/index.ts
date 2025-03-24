@@ -24,7 +24,7 @@ async function loadClient() {
 
 async function loadAccount() {
   const client = await loadClient();
-  const account = client.account.fromMnemonic('worry gather devote similar furnace dumb inject give equip explain letter foster truth symptom beyond token cradle wear curtain bacon behave junior decline absent coyote');
+  const account = client.account.fromMnemonic('');
 
   return account;
 }
